@@ -20,8 +20,28 @@
          #img1{
         height: 250px;
         border-radius: 450px;
+        width: 100%;
         }
     </style>
+    <script>
+        var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("kaydirmaliImg");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+    </script>
     
     
 </head>
@@ -45,7 +65,12 @@
        
     </nav>
      <div>
-     <img id="img1" src="resimler/kitabevi.jpeg" style="width:100%">
+     <img id="img1" src="resimler/kitabevi.jpeg">
+     <img class="img1"  src="resimler/kitap1.jpg" >
+     <img class="img1"  src="resimler/enCok.png" >
+     <button class="sol" onclick="plusDivs(-1)">&#10094</button>
+     <button class="sağ" onclick="plusDivs(+1)">&#10095</button>
+    </div>
     </div>
 </body>
 </html>
