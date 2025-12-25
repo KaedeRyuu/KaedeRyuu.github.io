@@ -9,7 +9,7 @@
         #p1{text-align: left ; font-weight: bold; font-size:25px ;}
         a:link { color: green; text-decoration: none;}
         a:hover { color: hotpink; text-decoration: none;}
-        div{
+        #div1{
         text-align: center;
         border-style: solid;
         margin: 15px 75px 15px 75px;
@@ -22,6 +22,25 @@
         border-radius: 450px;
         width: 100%;
         }
+        .div2
+    {
+        margin-top: 25px;
+        margin-bottom: 30px;
+        padding: 2%;
+        border: #DAA06D;
+        border-style: dotted;
+        border-width: 2px;
+        width: 40%;
+        text-align: center;
+    }
+    .yeniKImg
+    {
+        box-shadow: 0 0 3px 3px rgba(20, 1, 19, 0.5);
+        margin-top: 15px;
+        margin-bottom: 25px;
+        width: 300px;
+        height: 370px;
+    }
     </style>
     <script>
         var slideIndex = 1;
@@ -50,21 +69,19 @@ function showDivs(n) {
         <img src="resimler/kitapKurdu.jpg" align="left" width="150" height="150">
         <img src="resimler/bannerKitap.jpg" align="right" width="250" height="150">
         <br/> <br/>
-        <p id="p1">Kitap Kurdu Kitabevi</p>
+        <h2 style="text-align: justify;">Kitap Kurdu Kitabevi</h2>
     </header>
-    <nav style="height: 50px; background-color: #F9F6EE;">
-        <br/> 
-    &emsp; &emsp; 
-        <a href="index.html">Anasayfa</a>  &emsp;
-        <a href="htmlKodları/kitaplar.html">Kitaplar</a>  &emsp;
-        <a href="htmlKodları/yazarlar.html">Yazarlar</a>  &emsp;
-        <a href="htmlKodları/iletisim.html">İletişim</a>   &emsp;
+   <nav style="margin-top:15px; margin-bottom: 15px; background-color: #F9F6EE;">
+        <a href="index.html" style="margin-left: 45px;">Anasayfa</a>  
+        <a href="kitaplar.html" style="margin-left: 25px;">Kitaplar</a>  
+        <a href="yazarlar.html" style="margin-left: 25px;">Yazarlar</a>  
+        <a href="iletisim.html"style="margin-left: 25px;">İletişim</a>  
         
         </nav>
     <nav style="background-image: url(resimler/kitapPng.png); background-repeat:repeat-x; background-attachment: scroll; height: 100px;">
        
     </nav>
-     <div>
+     <div id="div1">
      <img class="img1" src="resimler/kitabevi.jpeg">
      <img class="img1"  src="resimler/kitap1.jpg" >
      <img class="img1"  src="resimler/enCok.png" >
@@ -79,5 +96,28 @@ function showDivs(n) {
   }
 y[0].style.display = "block";
     </script>
+    <div class="div2" style="float: left; margin-left: 55px;">
+        <h2>HAKKIMIZDA</h2>
+        <p>Kitapçılık, kitap evi veya kitap mağazası, kitapların satışı ve ticaretidir. Kitapçılık kitap yayınlamasının perakende ve dağıtım sürecinin sonudur. Kitapçılıkla uğraşan kişilere kitapçı denir. MÖ 300'de kütüphanelerin kurulması, Atinalı kitapçıların temelini kurdu.</p>
+    </div>
+    <div class="div2" style="float: right; margin-right: 55px;">
+        <h2>HAKKIMIZDA</h2>
+        <p>Kitapçılık, kitap evi veya kitap mağazası, kitapların satışı ve ticaretidir. Kitapçılık kitap yayınlamasının perakende ve dağıtım sürecinin sonudur. Kitapçılıkla uğraşan kişilere kitapçı denir. MÖ 300'de kütüphanelerin kurulması, Atinalı kitapçıların temelini kurdu.</p>
+    </div>
+    <h2 style="margin-left: 33%; display:inline-block;margin-right: 30%;" >------------- &emsp;YENİ KİTAPLAR &emsp;-------------</h2>
+    <a  href="donusum.html">
+        <img class="yeniKImg" src="resimler/Dönüşüm.jpeg" style="float: left; margin-left: 150px;">
+    </a>
+
+   <a href="fahrenheit451.html">
+    <img class="yeniKImg" src="resimler/Fahrenheit451.jpeg" style="float: center; margin-left: 25px;">
+   </a>
+   <a href="korluk.html">
+    <img class="yeniKImg" src="resimler/Körlük.jpeg" style="float: right;margin-right: 140px; margin-left: 25px;">
+</a>
+    <footer style="margin-top:15px; background-color: #DAA06D; width: 1245px; height: 50px;">
+       <br/>&emsp; İstanbul/Üsküdar
+    </footer>
+
 </body>
 </html>

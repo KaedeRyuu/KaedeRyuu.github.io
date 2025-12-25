@@ -1,3 +1,70 @@
-body{
+body
+{
     background-color: #F9F6EE;
 }
+.kImg
+{
+    display: block;
+    margin: 45px 150px 45px 150px;
+    height:15%;
+    width: 20%;
+    float: left;
+}
+.h1Kadi
+{
+    float:inline-start;
+    width: 550px; 
+    text-align: left;
+    margin-top: 80px;
+}
+.h3Yayinevi
+{
+    float:left;
+    width: 500px; 
+    text-align: left;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+.h1Kyazar
+{
+    float:left;
+    width: 550px; 
+    text-align: left;
+   
+}
+.pKbilgi
+{
+    float: left;
+    text-align: left;
+
+
+}
+.divKkonu
+{
+    display: block;
+    margin:15px 55px 25px 55px;
+    float: inline-end;
+    border-color: #DAA06D;
+    border-radius: 250px;
+    text-align: center;
+    border-style: solid;
+    padding: 25px;
+    background-color: #DAA06D;
+    color:#F9F6EE;
+}
+.floatGenel
+{
+    float: left; 
+    margin-top:15px;
+    margin-bottom: 5px;
+    background-color: #DAA06D; 
+    width: 1245px; 
+    height: 50px;
+}
+.aLinkKturu
+{
+    margin:20px 35px 20px 35px;
+    font-size: 25px;
+}
+a:link { color: green; text-decoration: none;}
+a:hover { color: hotpink; text-decoration: none;}
