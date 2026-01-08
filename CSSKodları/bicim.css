@@ -68,3 +68,28 @@ body
 }
 a:link { color: green; text-decoration: none;}
 a:hover { color: hotpink; text-decoration: none;}
+.goruntuImg
+{
+        box-shadow: 0 0 2px 1px rgba(20, 1, 19, 0.5);
+        width: 110px;
+        height: 180px;
+        margin: 35px 25px 15px 10px;
+}
+.kategoriImg
+{
+    box-shadow: 0 0 2px 1px rgba(20, 1, 19, 0.5);
+        width: 200px;
+        height: 270px;
+        margin: 35px 25px 15px 10px;
+}
+.menuNav
+{
+    position:sticky;
+    top: 0px;
+    padding: 5px;
+    float: left;
+    width: 23%;
+    height: 650px;
+    margin:35px 35px 55px 45px;
+    background-color: #EADDCA;
+}
