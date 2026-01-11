@@ -3,8 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kitaplar :D</title>
-    <link rel="stylesheet" href="CSSKodları/bicim.css"/>
+    <title>İletişim</title>
+    <link rel="stylesheet" href="CSSKodları\bicim.css"/>
+    <style>
+        .divBilgi{
+            float: left;
+            width: 50%;
+        }
+    </style>
 </head>
 <body>
      <header style="background-color:#DAA06D; height: 150px; text-align: right;">
@@ -17,30 +23,28 @@
         <a href="index.html" style="margin-left: 45px;">Anasayfa</a>  
         <a href="kitaplar.html" style="margin-left: 25px;">Kitaplar</a>  
         <a href="yazarlar.html" style="margin-left: 25px;">Yazarlar</a>  
-        <a href="iletisim.html"style="margin-left: 25px;">İletişim</a> 
+        <a href="iletisim.html"style="margin-left: 25px;">İletişim</a>  
         <a href="soru.html"style="margin-left: 25px;">Sormak İstedikleriniz</a>
         </nav>
     <nav style="background-image: url(resimler/kitapPng.png); background-repeat:repeat-x; background-attachment: scroll; height: 100px;">
     </nav>
-    <nav class="menuNav">
-        <h2 style="margin:10px 105px 35px 55px;text-align: center; font-size: 30px;">Kategori</h2>
-        <a href="dunyaKlasikleri.html" class="aLinkKturu">Dünya Klasikleri</a><br/><br/><br/><br/>  
-        <a href="turkEdebiyati.html" class="aLinkKturu">Türk Edebiyatı</a><br/><br/><br/><br/>  
-        <a href="bilimKurgu.html" class="aLinkKturu">Bilim Kurgu</a><br/><br/><br/><br/>  
-        <a href="polisiye.html" class="aLinkKturu">Polisiye</a><br/><br/><br/><br/>  
-        <a href="korku.html" class="aLinkKturu">Korku Kitapları</a><br/><br/><br/><br/>  
-        <a href="fantastik.html" class="aLinkKturu">Fantastik</a><br/><br/><br/><br/>
-    </nav>
-
-    <div style="float: right; width: 67%;">
-            <a  href="donusum.html">
-        <img class="kategoriImg" src="resimler/Dönüşüm.jpeg">
-            </a>
-        <img class="kategoriImg" src="resimler/SucVeCeza.jpeg">
-        <img class="kategoriImg" src="resimler/InsanNeyleYasar.jpeg">
-     </div>
-   
-     <footer class="footerGenel">
+    <section style="margin-top: 5%; font-size: x-large;">
+        <div style="float: left; margin-right: 5%; margin-left: 15%;">
+        <h2 style="color: #DAA06D;">KİŞİSEL BİLGİLER</h2>
+            <input type="text" placeholder = "*Adınız Soyadınız ..." size = "56"/><br/><br/>
+            <input type="text" placeholder = "*İl ..." size = "25"/>
+            <input type="text" placeholder = "*İlçe ..." size = "25"/><br/><br/>
+            <input type="text" placeholder = "*Telefon Numaranız ..." size = "56"/><br/><br/>
+            <input type="text" placeholder = "*E-posta Adresiniz ..." size = "56"/><br/><br/>
+        </div>
+        <div style="float:left; margin-bottom:5%">
+        <h2 style="color: #DAA06D;">SORUNUZ</h2>
+        <input type="text" placeholder = "Konu Başlığı Giriniz ..." size = "56"/><br/><br/>
+        <textarea name="acıklama" cols="53" rows="8" placeholder = "*Açıklamanız .. "></textarea><br/>
+        <input type="submit" value="GÖNDER" style=" margin-left: 40%;font-size: 20px; color:#F9F6EE; background-color: #DAA06D;border-color: #DAA06D;border-radius: 6px;">
+        </div>
+    </section>
+    <footer class="footerGenel">
         <section>
         <div class="divFooter" style="float:left;">
         <h3>Hakkımızda</h3>

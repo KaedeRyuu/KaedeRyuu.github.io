@@ -4,7 +4,6 @@ body
 }
 .kImg
 {
-    display: block;
     margin: 45px 150px 45px 150px;
     height:15%;
     width: 20%;
@@ -12,14 +11,12 @@ body
 }
 .h1Kadi
 {
-    float:inline-start;
     width: 550px; 
     text-align: left;
     margin-top: 80px;
 }
 .h3Yayinevi
 {
-    float:left;
     width: 500px; 
     text-align: left;
     margin-top: 20px;
@@ -27,21 +24,26 @@ body
 }
 .h1Kyazar
 {
-    float:left;
     width: 550px; 
     text-align: left;
    
 }
 .pKbilgi
 {
-    float: left;
     text-align: left;
 
 
 }
+.divBilgilendirme
+{
+    float:left;
+    margin-top:5%;
+    font-size:x-large;
+}
 .divKkonu
 {
     display: block;
+    font-size: 20px;
     margin:15px 55px 25px 55px;
     float: inline-end;
     border-color: #DAA06D;
@@ -114,4 +116,10 @@ a:hover { color: hotpink; text-decoration: none;}
     width: 200px; 
     height: 300px;
     box-shadow: 0 0 2px 1px rgba(20, 1, 19, 0.5);
+}
+.yatayNav
+{
+    margin-top:15px; 
+    margin-bottom: 15px; 
+    background-color: #F9F6EE;
 }
