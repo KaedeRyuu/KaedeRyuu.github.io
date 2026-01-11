@@ -107,12 +107,13 @@ a:hover { color: hotpink; text-decoration: none;}
 }
 .pYbiyografi
 {
-    margin-right: 3%; 
+   text-align:left;
     font-size: 25px;
 }
 .imgYkitaplari
 {
     margin-left: 5%; 
+    margin-bottom:3%;
     width: 200px; 
     height: 300px;
     box-shadow: 0 0 2px 1px rgba(20, 1, 19, 0.5);
